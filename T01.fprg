@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 11:09:18 AM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMENFUEdBQUg7MjAyNC0wOS0wNjsxMDowODo1NyBBTTsyNzM0"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMENFUEdBQUg7MjAyNC0wOS0wNjsxMTowOToxOCBBTTsxOzI4NDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="isbn, judul, penulis" type="String" array="False" size=""/>
+            <declare name="tahunterbit" type="Integer" array="False" size=""/>
+            <declare name="penerbit" type="String" array="False" size=""/>
+            <declare name="formatbukuelektronik" type="String" array="False" size=""/>
+            <declare name="hargapembelian, minimummargin" type="Real" array="False" size=""/>
+            <declare name="stok" type="Integer" array="False" size=""/>
+            <declare name="rating" type="Real" array="False" size=""/>
+            <input variable="isbn"/>
+            <input variable="judul"/>
+            <input variable="penulis"/>
+            <input variable="tahunterbit"/>
+            <input variable="penerbit"/>
+            <input variable="formatbukuelektronik"/>
+            <input variable="hargapembelian"/>
+            <input variable="minimummargin"/>
+            <input variable="stok"/>
+            <input variable="rating"/>
+            <output expression="isbn &amp;&quot;|&quot; &amp;judul &amp;&quot;|&quot; &amp;penulis &amp;&quot;|&quot; &amp;tahunterbit &amp;&quot;|&quot; &amp;penerbit &amp;&quot;|&quot; &amp;formatbukuelektronik &amp;&quot;|&quot; &amp;hargapembelian &amp;&quot;|&quot; &amp;minimummargin &amp;&quot;|&quot; &amp;stok &amp;&quot;|&quot; &amp;rating &amp;&quot;|&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
